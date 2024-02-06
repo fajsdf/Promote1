@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하쿠나 예양</title>
+    <style>
+        .hero {
+            background-color: rgb(20, 137, 247);
+            color: rgb(255, 255, 255);
+            padding: 50px;
+            text-align: center;
+        }
+        .hero img {
+            max-width: 200px;
+            height: auto;
+            display: block;
+            margin: 20px auto; /* 이미지를 가운데 정렬 */
+            border-radius: 50%;
+            border: 6px solid rgb(241, 244, 83);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* 그림자 효과 추가 */
+        }
+        /* 2번째 이미지부터 가로로 정렬되도록 설정 */
+        .hero div:nth-child(n+2) {
+            display: inline-block;
+            margin: 0 10px; /* 이미지 사이의 간격 조절 */
+        }
+        .hero p {
+            font-style: italic; /* 각 이미지 설명을 이탤릭체로 변경 */
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>하쿠나 예양</h1>
+        <p>주 컨텐츠 그림, 소통</p>
+        <img src="예양누나프사.jpg" alt="Hero Image 1">
+        <p>그림 맛집 웃음이 떠나질 않은 입담</p>
+        <div>
+            <img src="회장님 프사.jpg" alt="Hero Image 2">
+            <p>멋진 이세계물 그림</p>
+        </div>
+        <div>
+            <img src="귀염뽀짝한 프사.jpg" alt="Hero Image 3">
+            <p>아침에 비몽사몽한</p>
+        </div>
+        <div>
+            <img src="만화같은 프사 .jpg" alt="Hero Image 4">
+            <p>쿠루미%마이멜로디</p>
+        </div>
+        <div>
+            <img src="장난스러운 프사.jpg" alt="Hero Image 5">
+            <p>초밥 먹고 싶을 때 그린 그림</p>
+        </div>
+        <div>
+            <img src="커플샷 프사.jpg" alt="Hero Image 6">
+            <p>고퀄 커플 그림</p>
+        </div>
+    </div>
+</body>
+</html>
